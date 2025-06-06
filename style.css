@@ -2,11 +2,14 @@
     color:blue;
 }
 h1{
-    color: red;
+    color: rgb(166, 11, 255);
 }
 p{
     color: green;
 }
 .topic{
     color: rgb(0, 38, 255);
+}
+.topic2{
+    color: rgb(0, 139, 253);
 }
