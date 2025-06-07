@@ -1,15 +1,59 @@
-*{
-    color:blue;
+@import url('https://fonts.googleapis.com/css2?family=Exile&display=swap');
+
+
+
+p {
+    text-align: center;
+    color: white;
+    background-color: #0939be;
+    margin: 50px;
+    font-family: "Exile", system-ui;
+    text-decoration: underline;
+    border: 20px solid black;
+    border-radius: 50px;
+    border-style: double;
+    padding: 30px;
 }
-h1{
-    color: rgb(166, 11, 255);
+
+/* .box1 {
+    background-color: brown;
+    width: 100px;
+    height: 100px;
 }
-p{
-    color: green;
+
+.box2 {
+    background-color: cadetblue;
+    width: 200px;
+    height: 200px;
+    position: sticky;
+    top: 10px;
+} */
+
+
+h1 {
+    background-color: #0939be;
+    color: white;
 }
-.topic{
-    color: rgb(0, 38, 255);
+
+h1:hover {
+    background-color: brown;
+    color: white;
+    text-align: center;
 }
-.topic2{
-    color: rgb(0, 139, 253);
+
+h1:active {
+    background-color: burlywood;
+    color: white;
+    text-align: right;
+}
+
+
+#txtInput:focus {
+    border: 5px solid blue;
+}
+
+
+h1::selection {
+    background-color: blueviolet;
+    color: white;
 }
